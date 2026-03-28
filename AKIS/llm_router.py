@@ -63,7 +63,7 @@ def generate_with_gemini(query: str, context: str, strict: bool = False) -> str:
     """
     Generate answer using Gemini API.
     """
-    api_key = os.getenv('GEMINI_API_KEY')
+    api_key = os.getenv('AIzaSyA4C83L2kZLFBAoOt5cyFQJpADecuVlGl4')
     if not api_key:
         logging.error("GEMINI_API_KEY not set in environment.")
         return ""
